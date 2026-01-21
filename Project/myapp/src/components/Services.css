@@ -1,0 +1,67 @@
+/* 🌿 General Section Styling */
+.services-section {
+  background-color: #d1e0de; /* subtle soft green background */
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  color: #383838;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* 💡 Card Design */
+.benefit-card {
+  background-color: #ffffff; /* clean white card */
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  min-height: 320px;
+}
+
+.benefit-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌼 Icon Circle */
+.icon-wrapper {
+  background-color: #eef4ce; /* highlight circle */
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ✏️ Card Texts */
+.benefit-title {
+  color: #383838;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.benefit-desc {
+  color: #4d5c60;
+  font-size: 0.95rem;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+/* 🎯 Button Styling */
+.benefit-btn {
+  background: linear-gradient(135deg, #383838, #525266);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.benefit-btn:hover {
+  background: linear-gradient(135deg, #525266, #383838);
+  transform: translateY(-2px);
+}

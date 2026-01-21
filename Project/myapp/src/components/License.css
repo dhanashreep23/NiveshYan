@@ -1,0 +1,40 @@
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+}
+
+.alert {
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  font-size: 0.9em;
+  padding: 0.5em 1em;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+  
+  .card {
+    border-radius: 0;
+  }
+}
